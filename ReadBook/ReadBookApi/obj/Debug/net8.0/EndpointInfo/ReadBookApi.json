@@ -1,0 +1,235 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "ReadBookApi",
+    "version": "1.0"
+  },
+  "paths": {
+    "/Manga/all": {
+      "get": {
+        "tags": [
+          "Manga"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Manga/insert": {
+      "post": {
+        "tags": [
+          "Manga"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MangaEntity"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MangaEntity"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MangaEntity"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Manga/update": {
+      "put": {
+        "tags": [
+          "Manga"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MangaEntity"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MangaEntity"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MangaEntity"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Manga/delete": {
+      "delete": {
+        "tags": [
+          "Manga"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "string",
+                "format": "uuid"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "string",
+                "format": "uuid"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "string",
+                "format": "uuid"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Manga/paging": {
+      "post": {
+        "tags": [
+          "Manga"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MysqlParamPagingBase"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MysqlParamPagingBase"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MysqlParamPagingBase"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "MangaEntity": {
+        "type": "object",
+        "properties": {
+          "created_date": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "created_by": {
+            "type": "string",
+            "nullable": true
+          },
+          "modified_date": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "modified_by": {
+            "type": "string",
+            "nullable": true
+          },
+          "manga_id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "manga_title": {
+            "type": "string",
+            "nullable": true
+          },
+          "manga_author": {
+            "type": "string",
+            "nullable": true
+          },
+          "manga_status": {
+            "$ref": "#/components/schemas/MangaStatusEnum"
+          },
+          "manga_description": {
+            "type": "string",
+            "nullable": true
+          },
+          "manga_image": {
+            "type": "string",
+            "nullable": true
+          },
+          "list_category_id": {
+            "type": "string",
+            "nullable": true
+          },
+          "manga_release_year": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "additionalProperties": false
+      },
+      "MangaStatusEnum": {
+        "enum": [
+          1,
+          2,
+          3
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "MysqlParamPagingBase": {
+        "type": "object",
+        "properties": {
+          "column": {
+            "type": "string",
+            "nullable": true
+          },
+          "param": {
+            "nullable": true
+          },
+          "page": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "take": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}
