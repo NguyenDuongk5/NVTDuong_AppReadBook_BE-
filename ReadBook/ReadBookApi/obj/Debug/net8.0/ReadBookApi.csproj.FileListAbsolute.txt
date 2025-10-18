@@ -1,10 +1,3 @@
-C:\Users\thain\Desktop\AppDocTruyen\NVTDuong_AppReadBook_BE-\ReadBook\ReadBookApi\obj\Debug\net8.0\ReadBookApi.csproj.AssemblyReference.cache
-C:\Users\thain\Desktop\AppDocTruyen\NVTDuong_AppReadBook_BE-\ReadBook\ReadBookApi\obj\Debug\net8.0\ReadBookApi.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\thain\Desktop\AppDocTruyen\NVTDuong_AppReadBook_BE-\ReadBook\ReadBookApi\obj\Debug\net8.0\ReadBookApi.AssemblyInfoInputs.cache
-C:\Users\thain\Desktop\AppDocTruyen\NVTDuong_AppReadBook_BE-\ReadBook\ReadBookApi\obj\Debug\net8.0\ReadBookApi.AssemblyInfo.cs
-C:\Users\thain\Desktop\AppDocTruyen\NVTDuong_AppReadBook_BE-\ReadBook\ReadBookApi\obj\Debug\net8.0\ReadBookApi.csproj.CoreCompileInputs.cache
-C:\Users\thain\Desktop\AppDocTruyen\NVTDuong_AppReadBook_BE-\ReadBook\ReadBookApi\obj\Debug\net8.0\ReadBookApi.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\thain\Desktop\AppDocTruyen\NVTDuong_AppReadBook_BE-\ReadBook\ReadBookApi\obj\Debug\net8.0\ReadBookApi.sourcelink.json
 C:\Users\thain\Desktop\AppDocTruyen\NVTDuong_AppReadBook_BE-\ReadBook\ReadBookApi\bin\Debug\net8.0\ReadBookService.deps.json
 C:\Users\thain\Desktop\AppDocTruyen\NVTDuong_AppReadBook_BE-\ReadBook\ReadBookApi\bin\Debug\net8.0\ReadBookService.runtimeconfig.json
 C:\Users\thain\Desktop\AppDocTruyen\NVTDuong_AppReadBook_BE-\ReadBook\ReadBookApi\bin\Debug\net8.0\ReadBookRepo.deps.json
@@ -59,7 +52,14 @@ C:\Users\thain\Desktop\AppDocTruyen\NVTDuong_AppReadBook_BE-\ReadBook\ReadBookAp
 C:\Users\thain\Desktop\AppDocTruyen\NVTDuong_AppReadBook_BE-\ReadBook\ReadBookApi\bin\Debug\net8.0\ReadBookService.dll
 C:\Users\thain\Desktop\AppDocTruyen\NVTDuong_AppReadBook_BE-\ReadBook\ReadBookApi\bin\Debug\net8.0\ReadBookService.pdb
 C:\Users\thain\Desktop\AppDocTruyen\NVTDuong_AppReadBook_BE-\ReadBook\ReadBookApi\bin\Debug\net8.0\ReadBookRepo.pdb
+C:\Users\thain\Desktop\AppDocTruyen\NVTDuong_AppReadBook_BE-\ReadBook\ReadBookApi\obj\Debug\net8.0\ReadBookApi.csproj.AssemblyReference.cache
+C:\Users\thain\Desktop\AppDocTruyen\NVTDuong_AppReadBook_BE-\ReadBook\ReadBookApi\obj\Debug\net8.0\ReadBookApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thain\Desktop\AppDocTruyen\NVTDuong_AppReadBook_BE-\ReadBook\ReadBookApi\obj\Debug\net8.0\ReadBookApi.AssemblyInfoInputs.cache
+C:\Users\thain\Desktop\AppDocTruyen\NVTDuong_AppReadBook_BE-\ReadBook\ReadBookApi\obj\Debug\net8.0\ReadBookApi.AssemblyInfo.cs
+C:\Users\thain\Desktop\AppDocTruyen\NVTDuong_AppReadBook_BE-\ReadBook\ReadBookApi\obj\Debug\net8.0\ReadBookApi.csproj.CoreCompileInputs.cache
 C:\Users\thain\Desktop\AppDocTruyen\NVTDuong_AppReadBook_BE-\ReadBook\ReadBookApi\obj\Debug\net8.0\ReadBookApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\thain\Desktop\AppDocTruyen\NVTDuong_AppReadBook_BE-\ReadBook\ReadBookApi\obj\Debug\net8.0\ReadBookApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\thain\Desktop\AppDocTruyen\NVTDuong_AppReadBook_BE-\ReadBook\ReadBookApi\obj\Debug\net8.0\ReadBookApi.sourcelink.json
 C:\Users\thain\Desktop\AppDocTruyen\NVTDuong_AppReadBook_BE-\ReadBook\ReadBookApi\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\thain\Desktop\AppDocTruyen\NVTDuong_AppReadBook_BE-\ReadBook\ReadBookApi\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\thain\Desktop\AppDocTruyen\NVTDuong_AppReadBook_BE-\ReadBook\ReadBookApi\obj\Debug\net8.0\staticwebassets\msbuild.ReadBookApi.Microsoft.AspNetCore.StaticWebAssets.props

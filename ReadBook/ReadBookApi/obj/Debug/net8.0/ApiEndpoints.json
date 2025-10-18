@@ -1,5 +1,153 @@
 [
   {
+    "ContainingType": "ReadBookApi.Controllers.BaseController\u00602[[ReadBookRepo.Entity.Category.CategoryEntity, ReadBookRepo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[ReadBookRepo.Entity.Category.Dto.CategoryDto, ReadBookRepo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAll",
+    "RelativePath": "Category/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ReadBookApi.Controllers.BaseController\u00602[[ReadBookRepo.Entity.Category.CategoryEntity, ReadBookRepo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[ReadBookRepo.Entity.Category.Dto.CategoryDto, ReadBookRepo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "DeleteRecord",
+    "RelativePath": "Category/delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pkId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ReadBookApi.Controllers.BaseController\u00602[[ReadBookRepo.Entity.Category.CategoryEntity, ReadBookRepo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[ReadBookRepo.Entity.Category.Dto.CategoryDto, ReadBookRepo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "InsertRecord",
+    "RelativePath": "Category/insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "ReadBookRepo.Entity.Category.CategoryEntity",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ReadBookApi.Controllers.BaseController\u00602[[ReadBookRepo.Entity.Category.CategoryEntity, ReadBookRepo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[ReadBookRepo.Entity.Category.Dto.CategoryDto, ReadBookRepo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetPaging",
+    "RelativePath": "Category/paging",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "param",
+        "Type": "ReadBookRepo.Base.Param.MysqlParamPagingBase",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ReadBookApi.Controllers.BaseController\u00602[[ReadBookRepo.Entity.Category.CategoryEntity, ReadBookRepo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[ReadBookRepo.Entity.Category.Dto.CategoryDto, ReadBookRepo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "UpdateRecord",
+    "RelativePath": "Category/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "ReadBookRepo.Entity.Category.CategoryEntity",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ReadBookApi.Controllers.BaseController\u00602[[ReadBookRepo.Entity.Chapters.Entity.ChapterEntity, ReadBookRepo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[ReadBookRepo.Entity.Chapter.Dto.ChapterDto, ReadBookRepo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAll",
+    "RelativePath": "Chapter/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ReadBookApi.Controllers.BaseController\u00602[[ReadBookRepo.Entity.Chapters.Entity.ChapterEntity, ReadBookRepo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[ReadBookRepo.Entity.Chapter.Dto.ChapterDto, ReadBookRepo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "DeleteRecord",
+    "RelativePath": "Chapter/delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pkId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ReadBookApi.Controllers.BaseController\u00602[[ReadBookRepo.Entity.Chapters.Entity.ChapterEntity, ReadBookRepo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[ReadBookRepo.Entity.Chapter.Dto.ChapterDto, ReadBookRepo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "InsertRecord",
+    "RelativePath": "Chapter/insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "ReadBookRepo.Entity.Chapters.Entity.ChapterEntity",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ReadBookApi.Controllers.BaseController\u00602[[ReadBookRepo.Entity.Chapters.Entity.ChapterEntity, ReadBookRepo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[ReadBookRepo.Entity.Chapter.Dto.ChapterDto, ReadBookRepo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetPaging",
+    "RelativePath": "Chapter/paging",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "param",
+        "Type": "ReadBookRepo.Base.Param.MysqlParamPagingBase",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ReadBookApi.Controllers.BaseController\u00602[[ReadBookRepo.Entity.Chapters.Entity.ChapterEntity, ReadBookRepo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[ReadBookRepo.Entity.Chapter.Dto.ChapterDto, ReadBookRepo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "UpdateRecord",
+    "RelativePath": "Chapter/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "ReadBookRepo.Entity.Chapters.Entity.ChapterEntity",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ReadBookApi.Controllers.BaseController\u00602[[ReadBookRepo.Entity.Manga.MangaEntity, ReadBookRepo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[ReadBookRepo.Entity.Manga.Dto.MangaDto, ReadBookRepo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
     "Method": "GetAll",
     "RelativePath": "Manga/all",
