@@ -11,6 +11,26 @@
   },
   {
     "ContainingType": "ReadBookApi.Controllers.BaseController\u00602[[ReadBookRepo.Entity.Category.CategoryEntity, ReadBookRepo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[ReadBookRepo.Entity.Category.Dto.CategoryDto, ReadBookRepo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetCount",
+    "RelativePath": "Category/count",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ReadBookApi.Controllers.BaseController\u00602[[ReadBookRepo.Entity.Category.CategoryEntity, ReadBookRepo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[ReadBookRepo.Entity.Category.Dto.CategoryDto, ReadBookRepo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetCountToday",
+    "RelativePath": "Category/count-today",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ReadBookApi.Controllers.BaseController\u00602[[ReadBookRepo.Entity.Category.CategoryEntity, ReadBookRepo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[ReadBookRepo.Entity.Category.Dto.CategoryDto, ReadBookRepo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
     "Method": "DeleteRecord",
     "RelativePath": "Category/delete",
     "HttpMethod": "DELETE",
@@ -85,6 +105,26 @@
   },
   {
     "ContainingType": "ReadBookApi.Controllers.BaseController\u00602[[ReadBookRepo.Entity.Chapters.Entity.ChapterEntity, ReadBookRepo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[ReadBookRepo.Entity.Chapter.Dto.ChapterDto, ReadBookRepo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetCount",
+    "RelativePath": "Chapter/count",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ReadBookApi.Controllers.BaseController\u00602[[ReadBookRepo.Entity.Chapters.Entity.ChapterEntity, ReadBookRepo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[ReadBookRepo.Entity.Chapter.Dto.ChapterDto, ReadBookRepo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetCountToday",
+    "RelativePath": "Chapter/count-today",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ReadBookApi.Controllers.BaseController\u00602[[ReadBookRepo.Entity.Chapters.Entity.ChapterEntity, ReadBookRepo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[ReadBookRepo.Entity.Chapter.Dto.ChapterDto, ReadBookRepo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
     "Method": "DeleteRecord",
     "RelativePath": "Chapter/delete",
     "HttpMethod": "DELETE",
@@ -151,6 +191,26 @@
     "ContainingType": "ReadBookApi.Controllers.BaseController\u00602[[ReadBookRepo.Entity.Manga.MangaEntity, ReadBookRepo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[ReadBookRepo.Entity.Manga.Dto.MangaDto, ReadBookRepo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
     "Method": "GetAll",
     "RelativePath": "Manga/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ReadBookApi.Controllers.BaseController\u00602[[ReadBookRepo.Entity.Manga.MangaEntity, ReadBookRepo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[ReadBookRepo.Entity.Manga.Dto.MangaDto, ReadBookRepo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetCount",
+    "RelativePath": "Manga/count",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ReadBookApi.Controllers.BaseController\u00602[[ReadBookRepo.Entity.Manga.MangaEntity, ReadBookRepo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[ReadBookRepo.Entity.Manga.Dto.MangaDto, ReadBookRepo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetCountToday",
+    "RelativePath": "Manga/count-today",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

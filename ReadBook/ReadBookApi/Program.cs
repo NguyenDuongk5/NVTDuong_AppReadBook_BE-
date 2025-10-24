@@ -33,27 +33,32 @@ builder.Services.AddScoped<IMangaService, MangaService>();
 builder.Services.AddScoped<ICategoryService, CategoryService>();
 builder.Services.AddScoped<IChapterService, ChapterService>();
 
+
+// Cho phép CORS
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAll",
-        policy => policy.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+        policy =>
+        {
+            policy
+                .WithOrigins("http://localhost:5173") // cho phép app Vue
+                .AllowAnyHeader()
+                .AllowAnyMethod()
+                .AllowCredentials();
+        });
 });
 
 var app = builder.Build();
 
+// Sử dụng CORS
 app.UseCors("AllowAll");
-
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
-app.UseHttpsRedirection();
-
+  
 app.UseAuthorization();
-
 app.MapControllers();
 
 app.Run();

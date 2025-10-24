@@ -144,6 +144,30 @@
         }
       }
     },
+    "/Category/count": {
+      "get": {
+        "tags": [
+          "Category"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Category/count-today": {
+      "get": {
+        "tags": [
+          "Category"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/Chapter/all": {
       "get": {
         "tags": [
@@ -283,6 +307,30 @@
         }
       }
     },
+    "/Chapter/count": {
+      "get": {
+        "tags": [
+          "Chapter"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Chapter/count-today": {
+      "get": {
+        "tags": [
+          "Chapter"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/Manga/all": {
       "get": {
         "tags": [
@@ -415,6 +463,30 @@
             }
           }
         },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Manga/count": {
+      "get": {
+        "tags": [
+          "Manga"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Manga/count-today": {
+      "get": {
+        "tags": [
+          "Manga"
+        ],
         "responses": {
           "200": {
             "description": "OK"

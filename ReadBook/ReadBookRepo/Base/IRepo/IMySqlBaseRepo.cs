@@ -49,6 +49,10 @@ namespace ReadBookRepo.Base.IRepo
         /// <returns></returns>
         /// Author: NVTDuong 01.10.2025
         Task<MysqlResultPagingBase<T>> GetDataPagingAsync<T>(MysqlParamPagingBase paramPagingBase);
+
+        Task<int> CountAsync();
+
+        Task<int> CountTodayAsync();
     }
 
 }

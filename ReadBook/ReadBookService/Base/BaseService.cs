@@ -119,5 +119,17 @@ namespace ReadBookService.Service.Base
             return await _baseRepo.GetDataPagingAsync<T>(paramPagingBase);
         }
 
+        public async Task<int> CountAsync()
+        {
+            return await _baseRepo.CountAsync();
+        }
+
+        public async Task<int> CountTodayAsync()
+        {
+            return await _baseRepo.CountTodayAsync();
+        }
+
+
+
     }
 }

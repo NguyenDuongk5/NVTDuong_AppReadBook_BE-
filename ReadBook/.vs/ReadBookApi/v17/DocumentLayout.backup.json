@@ -3,16 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\thain\\Desktop\\AppDocTruyen\\NVTDuong_AppReadBook_BE-\\ReadBook\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{46CF72BA-8B15-4E33-A02D-1B31DE6A6954}|ReadBookApi\\ReadBookApi.csproj|c:\\users\\thain\\desktop\\appdoctruyen\\nvtduong_appreadbook_be-\\readbook\\readbookapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46CF72BA-8B15-4E33-A02D-1B31DE6A6954}|ReadBookApi\\ReadBookApi.csproj|solutionrelative:readbookapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{935918D6-3FE9-4F5A-9037-597DC2190E10}|ReadBookService\\ReadBookService.csproj|c:\\users\\thain\\desktop\\appdoctruyen\\nvtduong_appreadbook_be-\\readbook\\readbookservice\\base\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{935918D6-3FE9-4F5A-9037-597DC2190E10}|ReadBookService\\ReadBookService.csproj|solutionrelative:readbookservice\\base\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{46CF72BA-8B15-4E33-A02D-1B31DE6A6954}|ReadBookApi\\ReadBookApi.csproj|c:\\users\\thain\\desktop\\appdoctruyen\\nvtduong_appreadbook_be-\\readbook\\readbookapi\\readbookapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{46CF72BA-8B15-4E33-A02D-1B31DE6A6954}|ReadBookApi\\ReadBookApi.csproj|solutionrelative:readbookapi\\readbookapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+      "AbsoluteMoniker": "D:0:0:{8D3D3B04-D874-4C86-914E-392E182379C3}|ReadBookRepo\\ReadBookRepo.csproj|c:\\users\\thain\\desktop\\appdoctruyen\\nvtduong_appreadbook_be-\\readbook\\readbookrepo\\base\\repo\\mysqlbaserepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D3D3B04-D874-4C86-914E-392E182379C3}|ReadBookRepo\\ReadBookRepo.csproj|solutionrelative:readbookrepo\\base\\repo\\mysqlbaserepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D3D3B04-D874-4C86-914E-392E182379C3}|ReadBookRepo\\ReadBookRepo.csproj|c:\\users\\thain\\desktop\\appdoctruyen\\nvtduong_appreadbook_be-\\readbook\\readbookrepo\\base\\irepo\\imysqlbaserepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D3D3B04-D874-4C86-914E-392E182379C3}|ReadBookRepo\\ReadBookRepo.csproj|solutionrelative:readbookrepo\\base\\irepo\\imysqlbaserepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{935918D6-3FE9-4F5A-9037-597DC2190E10}|ReadBookService\\ReadBookService.csproj|c:\\users\\thain\\desktop\\appdoctruyen\\nvtduong_appreadbook_be-\\readbook\\readbookservice\\base\\ibaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{935918D6-3FE9-4F5A-9037-597DC2190E10}|ReadBookService\\ReadBookService.csproj|solutionrelative:readbookservice\\base\\ibaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46CF72BA-8B15-4E33-A02D-1B31DE6A6954}|ReadBookApi\\ReadBookApi.csproj|c:\\users\\thain\\desktop\\appdoctruyen\\nvtduong_appreadbook_be-\\readbook\\readbookapi\\controllers\\base\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46CF72BA-8B15-4E33-A02D-1B31DE6A6954}|ReadBookApi\\ReadBookApi.csproj|solutionrelative:readbookapi\\controllers\\base\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{935918D6-3FE9-4F5A-9037-597DC2190E10}|ReadBookService\\ReadBookService.csproj|c:\\users\\thain\\desktop\\appdoctruyen\\nvtduong_appreadbook_be-\\readbook\\readbookservice\\service\\manga\\mangaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{935918D6-3FE9-4F5A-9037-597DC2190E10}|ReadBookService\\ReadBookService.csproj|solutionrelative:readbookservice\\service\\manga\\mangaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{935918D6-3FE9-4F5A-9037-597DC2190E10}|ReadBookService\\ReadBookService.csproj|c:\\users\\thain\\desktop\\appdoctruyen\\nvtduong_appreadbook_be-\\readbook\\readbookservice\\iservice\\manga\\imangaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{935918D6-3FE9-4F5A-9037-597DC2190E10}|ReadBookService\\ReadBookService.csproj|solutionrelative:readbookservice\\iservice\\manga\\imangaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{46CF72BA-8B15-4E33-A02D-1B31DE6A6954}|ReadBookApi\\ReadBookApi.csproj|c:\\users\\thain\\desktop\\appdoctruyen\\nvtduong_appreadbook_be-\\readbook\\readbookapi\\controllers\\manga\\mangacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{46CF72BA-8B15-4E33-A02D-1B31DE6A6954}|ReadBookApi\\ReadBookApi.csproj|solutionrelative:readbookapi\\controllers\\manga\\mangacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46CF72BA-8B15-4E33-A02D-1B31DE6A6954}|ReadBookApi\\ReadBookApi.csproj|c:\\users\\thain\\desktop\\appdoctruyen\\nvtduong_appreadbook_be-\\readbook\\readbookapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46CF72BA-8B15-4E33-A02D-1B31DE6A6954}|ReadBookApi\\ReadBookApi.csproj|solutionrelative:readbookapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D3D3B04-D874-4C86-914E-392E182379C3}|ReadBookRepo\\ReadBookRepo.csproj|c:\\users\\thain\\desktop\\appdoctruyen\\nvtduong_appreadbook_be-\\readbook\\readbookrepo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D3D3B04-D874-4C86-914E-392E182379C3}|ReadBookRepo\\ReadBookRepo.csproj|solutionrelative:readbookrepo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46CF72BA-8B15-4E33-A02D-1B31DE6A6954}|ReadBookApi\\ReadBookApi.csproj|c:\\users\\thain\\desktop\\appdoctruyen\\nvtduong_appreadbook_be-\\readbook\\readbookapi\\readbookapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{46CF72BA-8B15-4E33-A02D-1B31DE6A6954}|ReadBookApi\\ReadBookApi.csproj|solutionrelative:readbookapi\\readbookapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8D3D3B04-D874-4C86-914E-392E182379C3}|ReadBookRepo\\ReadBookRepo.csproj|c:\\users\\thain\\desktop\\appdoctruyen\\nvtduong_appreadbook_be-\\readbook\\readbookrepo\\entity\\manga\\entity\\mangaentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,32 +59,8 @@
       "RelativeMoniker": "D:0:0:{8D3D3B04-D874-4C86-914E-392E182379C3}|ReadBookRepo\\ReadBookRepo.csproj|solutionrelative:readbookrepo\\entity\\mangapagingresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D3D3B04-D874-4C86-914E-392E182379C3}|ReadBookRepo\\ReadBookRepo.csproj|c:\\users\\thain\\desktop\\appdoctruyen\\nvtduong_appreadbook_be-\\readbook\\readbookrepo\\base\\repo\\mysqlbaserepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D3D3B04-D874-4C86-914E-392E182379C3}|ReadBookRepo\\ReadBookRepo.csproj|solutionrelative:readbookrepo\\base\\repo\\mysqlbaserepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{935918D6-3FE9-4F5A-9037-597DC2190E10}|ReadBookService\\ReadBookService.csproj|c:\\users\\thain\\desktop\\appdoctruyen\\nvtduong_appreadbook_be-\\readbook\\readbookservice\\base\\ibaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{935918D6-3FE9-4F5A-9037-597DC2190E10}|ReadBookService\\ReadBookService.csproj|solutionrelative:readbookservice\\base\\ibaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{935918D6-3FE9-4F5A-9037-597DC2190E10}|ReadBookService\\ReadBookService.csproj|c:\\users\\thain\\desktop\\appdoctruyen\\nvtduong_appreadbook_be-\\readbook\\readbookservice\\service\\manga\\mangaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{935918D6-3FE9-4F5A-9037-597DC2190E10}|ReadBookService\\ReadBookService.csproj|solutionrelative:readbookservice\\service\\manga\\mangaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46CF72BA-8B15-4E33-A02D-1B31DE6A6954}|ReadBookApi\\ReadBookApi.csproj|c:\\users\\thain\\desktop\\appdoctruyen\\nvtduong_appreadbook_be-\\readbook\\readbookapi\\controllers\\base\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46CF72BA-8B15-4E33-A02D-1B31DE6A6954}|ReadBookApi\\ReadBookApi.csproj|solutionrelative:readbookapi\\controllers\\base\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8D3D3B04-D874-4C86-914E-392E182379C3}|ReadBookRepo\\ReadBookRepo.csproj|c:\\users\\thain\\desktop\\appdoctruyen\\nvtduong_appreadbook_be-\\readbook\\readbookrepo\\repo\\manga\\mangarepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8D3D3B04-D874-4C86-914E-392E182379C3}|ReadBookRepo\\ReadBookRepo.csproj|solutionrelative:readbookrepo\\repo\\manga\\mangarepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{935918D6-3FE9-4F5A-9037-597DC2190E10}|ReadBookService\\ReadBookService.csproj|c:\\users\\thain\\desktop\\appdoctruyen\\nvtduong_appreadbook_be-\\readbook\\readbookservice\\iservice\\manga\\imangaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{935918D6-3FE9-4F5A-9037-597DC2190E10}|ReadBookService\\ReadBookService.csproj|solutionrelative:readbookservice\\iservice\\manga\\imangaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{935918D6-3FE9-4F5A-9037-597DC2190E10}|ReadBookService\\ReadBookService.csproj|c:\\users\\thain\\desktop\\appdoctruyen\\nvtduong_appreadbook_be-\\readbook\\readbookservice\\base\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{935918D6-3FE9-4F5A-9037-597DC2190E10}|ReadBookService\\ReadBookService.csproj|solutionrelative:readbookservice\\base\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8D3D3B04-D874-4C86-914E-392E182379C3}|ReadBookRepo\\ReadBookRepo.csproj|c:\\users\\thain\\desktop\\appdoctruyen\\nvtduong_appreadbook_be-\\readbook\\readbookrepo\\irepo\\imanga\\imangarepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -78,7 +86,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 19,
           "Children": [
             {
               "$type": "Bookmark",
@@ -106,20 +114,43 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "IMySqlBaseRepo.cs",
+              "DocumentMoniker": "C:\\Users\\thain\\Desktop\\AppDocTruyen\\NVTDuong_AppReadBook_BE-\\ReadBook\\ReadBookRepo\\Base\\IRepo\\IMySqlBaseRepo.cs",
+              "RelativeDocumentMoniker": "ReadBookRepo\\Base\\IRepo\\IMySqlBaseRepo.cs",
+              "ToolTip": "C:\\Users\\thain\\Desktop\\AppDocTruyen\\NVTDuong_AppReadBook_BE-\\ReadBook\\ReadBookRepo\\Base\\IRepo\\IMySqlBaseRepo.cs",
+              "RelativeToolTip": "ReadBookRepo\\Base\\IRepo\\IMySqlBaseRepo.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAqwDcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T10:16:35.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\thain\\Desktop\\AppDocTruyen\\NVTDuong_AppReadBook_BE-\\ReadBook\\ReadBookRepo\\Program.cs",
+              "RelativeDocumentMoniker": "ReadBookRepo\\Program.cs",
+              "ToolTip": "C:\\Users\\thain\\Desktop\\AppDocTruyen\\NVTDuong_AppReadBook_BE-\\ReadBook\\ReadBookRepo\\Program.cs",
+              "RelativeToolTip": "ReadBookRepo\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T05:31:40.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\thain\\Desktop\\AppDocTruyen\\NVTDuong_AppReadBook_BE-\\ReadBook\\ReadBookApi\\Program.cs",
               "RelativeDocumentMoniker": "ReadBookApi\\Program.cs",
               "ToolTip": "C:\\Users\\thain\\Desktop\\AppDocTruyen\\NVTDuong_AppReadBook_BE-\\ReadBook\\ReadBookApi\\Program.cs",
               "RelativeToolTip": "ReadBookApi\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAcwDgAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-18T15:21:16.483Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-18T15:21:16.483Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 10,
               "Title": "ReadBookApi.http",
               "DocumentMoniker": "C:\\Users\\thain\\Desktop\\AppDocTruyen\\NVTDuong_AppReadBook_BE-\\ReadBook\\ReadBookApi\\ReadBookApi.http",
               "RelativeDocumentMoniker": "ReadBookApi\\ReadBookApi.http",
@@ -127,48 +158,47 @@
               "RelativeToolTip": "ReadBookApi\\ReadBookApi.http",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-10-18T15:20:17.964Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-18T15:20:17.964Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "MySqlBaseRepo.cs",
               "DocumentMoniker": "C:\\Users\\thain\\Desktop\\AppDocTruyen\\NVTDuong_AppReadBook_BE-\\ReadBook\\ReadBookRepo\\Base\\Repo\\MySqlBaseRepo.cs",
               "RelativeDocumentMoniker": "ReadBookRepo\\Base\\Repo\\MySqlBaseRepo.cs",
               "ToolTip": "C:\\Users\\thain\\Desktop\\AppDocTruyen\\NVTDuong_AppReadBook_BE-\\ReadBook\\ReadBookRepo\\Base\\Repo\\MySqlBaseRepo.cs",
               "RelativeToolTip": "ReadBookRepo\\Base\\Repo\\MySqlBaseRepo.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAYwAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAPMAAAAAAAAAAAAYwAkBAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-14T16:58:38.272Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 4,
               "Title": "BaseController.cs",
               "DocumentMoniker": "C:\\Users\\thain\\Desktop\\AppDocTruyen\\NVTDuong_AppReadBook_BE-\\ReadBook\\ReadBookApi\\Controllers\\Base\\BaseController.cs",
               "RelativeDocumentMoniker": "ReadBookApi\\Controllers\\Base\\BaseController.cs",
               "ToolTip": "C:\\Users\\thain\\Desktop\\AppDocTruyen\\NVTDuong_AppReadBook_BE-\\ReadBook\\ReadBookApi\\Controllers\\Base\\BaseController.cs",
               "RelativeToolTip": "ReadBookApi\\Controllers\\Base\\BaseController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAAAGsAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-14T16:40:19.814Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "MangaController.cs",
               "DocumentMoniker": "C:\\Users\\thain\\Desktop\\AppDocTruyen\\NVTDuong_AppReadBook_BE-\\ReadBook\\ReadBookApi\\Controllers\\Manga\\MangaController.cs",
               "RelativeDocumentMoniker": "ReadBookApi\\Controllers\\Manga\\MangaController.cs",
               "ToolTip": "C:\\Users\\thain\\Desktop\\AppDocTruyen\\NVTDuong_AppReadBook_BE-\\ReadBook\\ReadBookApi\\Controllers\\Manga\\MangaController.cs",
               "RelativeToolTip": "ReadBookApi\\Controllers\\Manga\\MangaController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAQwB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-14T16:31:41.926Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "MangaRepo.cs",
               "DocumentMoniker": "C:\\Users\\thain\\Desktop\\AppDocTruyen\\NVTDuong_AppReadBook_BE-\\ReadBook\\ReadBookRepo\\Repo\\Manga\\MangaRepo.cs",
               "RelativeDocumentMoniker": "ReadBookRepo\\Repo\\Manga\\MangaRepo.cs",
@@ -180,7 +210,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "IMangaRepo.cs",
               "DocumentMoniker": "C:\\Users\\thain\\Desktop\\AppDocTruyen\\NVTDuong_AppReadBook_BE-\\ReadBook\\ReadBookRepo\\IRepo\\IManga\\IMangaRepo.cs",
               "RelativeDocumentMoniker": "ReadBookRepo\\IRepo\\IManga\\IMangaRepo.cs",
@@ -192,7 +222,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "MysqlParamBase.cs",
               "DocumentMoniker": "C:\\Users\\thain\\Desktop\\AppDocTruyen\\NVTDuong_AppReadBook_BE-\\ReadBook\\ReadBookRepo\\Base\\Param\\MysqlParamBase.cs",
               "RelativeDocumentMoniker": "ReadBookRepo\\Base\\Param\\MysqlParamBase.cs",
@@ -204,19 +234,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "IBaseService.cs",
               "DocumentMoniker": "C:\\Users\\thain\\Desktop\\AppDocTruyen\\NVTDuong_AppReadBook_BE-\\ReadBook\\ReadBookService\\Base\\IBaseService.cs",
               "RelativeDocumentMoniker": "ReadBookService\\Base\\IBaseService.cs",
               "ToolTip": "C:\\Users\\thain\\Desktop\\AppDocTruyen\\NVTDuong_AppReadBook_BE-\\ReadBook\\ReadBookService\\Base\\IBaseService.cs",
               "RelativeToolTip": "ReadBookService\\Base\\IBaseService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAqwC8AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-14T16:22:00.461Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "Enumeration.cs",
               "DocumentMoniker": "C:\\Users\\thain\\Desktop\\AppDocTruyen\\NVTDuong_AppReadBook_BE-\\ReadBook\\ReadBookRepo\\Enumeration\\Enumeration.cs",
               "RelativeDocumentMoniker": "ReadBookRepo\\Enumeration\\Enumeration.cs",
@@ -228,7 +258,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "CRUDEntity.cs",
               "DocumentMoniker": "C:\\Users\\thain\\Desktop\\AppDocTruyen\\NVTDuong_AppReadBook_BE-\\ReadBook\\ReadBookRepo\\Base\\CRUDEntity\\CRUDEntity.cs",
               "RelativeDocumentMoniker": "ReadBookRepo\\Base\\CRUDEntity\\CRUDEntity.cs",
@@ -240,19 +270,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 0,
               "Title": "BaseService.cs",
               "DocumentMoniker": "C:\\Users\\thain\\Desktop\\AppDocTruyen\\NVTDuong_AppReadBook_BE-\\ReadBook\\ReadBookService\\Base\\BaseService.cs",
               "RelativeDocumentMoniker": "ReadBookService\\Base\\BaseService.cs",
               "ToolTip": "C:\\Users\\thain\\Desktop\\AppDocTruyen\\NVTDuong_AppReadBook_BE-\\ReadBook\\ReadBookService\\Base\\BaseService.cs",
               "RelativeToolTip": "ReadBookService\\Base\\BaseService.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAYwBAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAWwIIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T16:21:06.393Z"
+              "WhenOpened": "2025-10-14T16:21:06.393Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 13,
               "Title": "MangaPagingResult.cs",
               "DocumentMoniker": "C:\\Users\\thain\\Desktop\\AppDocTruyen\\NVTDuong_AppReadBook_BE-\\ReadBook\\ReadBookRepo\\Entity\\MangaPagingResult.cs",
               "RelativeDocumentMoniker": "ReadBookRepo\\Entity\\MangaPagingResult.cs",
@@ -264,7 +295,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "MangaEntity.cs",
               "DocumentMoniker": "C:\\Users\\thain\\Desktop\\AppDocTruyen\\NVTDuong_AppReadBook_BE-\\ReadBook\\ReadBookRepo\\Entity\\Manga\\Entity\\MangaEntity.cs",
               "RelativeDocumentMoniker": "ReadBookRepo\\Entity\\Manga\\Entity\\MangaEntity.cs",
@@ -276,7 +307,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 12,
               "Title": "MangaDto.cs",
               "DocumentMoniker": "C:\\Users\\thain\\Desktop\\AppDocTruyen\\NVTDuong_AppReadBook_BE-\\ReadBook\\ReadBookRepo\\Entity\\Manga\\Dto\\MangaDto.cs",
               "RelativeDocumentMoniker": "ReadBookRepo\\Entity\\Manga\\Dto\\MangaDto.cs",
@@ -288,7 +319,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
               "Title": "MangaService.cs",
               "DocumentMoniker": "C:\\Users\\thain\\Desktop\\AppDocTruyen\\NVTDuong_AppReadBook_BE-\\ReadBook\\ReadBookService\\Service\\Manga\\MangaService.cs",
               "RelativeDocumentMoniker": "ReadBookService\\Service\\Manga\\MangaService.cs",
@@ -300,7 +331,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 6,
               "Title": "IMangaService.cs",
               "DocumentMoniker": "C:\\Users\\thain\\Desktop\\AppDocTruyen\\NVTDuong_AppReadBook_BE-\\ReadBook\\ReadBookService\\IService\\Manga\\IMangaService.cs",
               "RelativeDocumentMoniker": "ReadBookService\\IService\\Manga\\IMangaService.cs",

@@ -42,5 +42,10 @@ namespace ReadBookService.Base
         /// <typeparam name="T"></typeparam>
         /// <param name="paramPagingBase"></param>
         Task<MysqlResultPagingBase<T>> GetPagingAsync<T>(MysqlParamPagingBase paramPagingBase);
+
+        Task<int> CountAsync();
+
+        Task<int> CountTodayAsync();
+
     }
 }

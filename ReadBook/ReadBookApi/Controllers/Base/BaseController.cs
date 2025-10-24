@@ -88,5 +88,26 @@ namespace ReadBookApi.Controllers
             return Ok(result);
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
+        [HttpGet("count")]
+        public async Task<IActionResult> GetCount()
+        {
+            var count = await _baseService.CountAsync();
+            return Ok(count);
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
+        [HttpGet("count-today")]
+        public async Task<IActionResult> GetCountToday()
+        {
+            var count = await _baseService.CountTodayAsync();
+            return Ok(count);
+        }
+
     }
 }

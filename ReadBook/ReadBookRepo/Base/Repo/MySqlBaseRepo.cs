@@ -228,5 +228,42 @@ namespace ReadBookRepo.Base.Repo
             return result; // số bản ghi được update
         }
 
+        /// <summary>
+        /// Hàm tổng số đối tượng
+        /// </summary>
+        /// <returns></returns>
+        public async Task<int> CountAsync()
+        {
+            var tableName = typeof(Entity).Name.Replace("Entity", "");
+
+            var sql = $"SELECT COUNT(*) FROM {tableName.ToLower()}";
+
+            using (var connection = new MySqlConnection(_connectionString))
+            {
+                await connection.OpenAsync();
+                return await connection.ExecuteScalarAsync<int>(sql);
+            }
+        }
+
+        public async Task<int> CountTodayAsync()
+        {
+            // Lấy tên bảng từ class Entity (VD: MangaEntity → manga)
+            var tableName = typeof(Entity).Name.Replace("Entity", "");
+
+            // Câu SQL đếm số bản ghi có created_date là ngày hôm nay
+            var sql = $@"
+                    SELECT COUNT(*) 
+                    FROM {tableName.ToLower()}
+                    WHERE DATE(created_date) = CURDATE();
+                ";
+
+            // Tạo kết nối đến MySQL
+            using (var connection = new MySqlConnection(_connectionString))
+            {
+                await connection.OpenAsync();
+                return await connection.ExecuteScalarAsync<int>(sql);
+            }
+        }
     }
 }
+
