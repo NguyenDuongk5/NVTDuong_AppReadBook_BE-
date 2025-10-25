@@ -21,24 +21,10 @@ namespace ReadBookService.Service.Home
             _repo = baseRepo;
         }
 
-        ///// <summary>
-        ///// Nếu có thêm logic riêng cho Manga thì viết ở đây.
-        ///// Ví dụ: Lấy danh sách manga theo thể loại.
-        ///// </summary>
-        //public async Task<List<MangaDto>> GetByCategory(Guid categoryId)
-        //{
-        //    var sql = "SELECT * FROM manga WHERE CategoryId = @CategoryId";
-        //    var param = new { CategoryId = categoryId };
-        //    return await _repo.GetDataAsync<MangaDto>(sql, param);
-        //}
-
-        ///// <summary>
-        ///// Ví dụ: Lấy danh sách manga nổi bật.
-        ///// </summary>
-        //public async Task<List<MangaDto>> GetFeaturedManga()
-        //{
-        //    var sql = "SELECT * FROM manga WHERE IsFeatured = 1 ORDER BY UpdatedDate DESC LIMIT 10";
-        //    return await _repo.GetDataAsync<MangaDto>(sql);
-        //}
+        protected override async Task<List<MangaDto>> AfterGetAllData(List<MangaDto> data)
+        {
+            data = data.OrderByDescending(x => x.modified_date).ToList();
+            return data;
+        }
     }
 }

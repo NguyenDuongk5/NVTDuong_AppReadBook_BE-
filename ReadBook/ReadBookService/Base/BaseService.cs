@@ -1,4 +1,5 @@
-﻿using ReadBookRepo.Base.IRepo;
+﻿using MySqlX.XDevAPI.Common;
+using ReadBookRepo.Base.IRepo;
 using ReadBookRepo.Base.Param;
 using ReadBookRepo.Base.Repo;
 using ReadBookRepo.Base.Result;
@@ -26,7 +27,22 @@ namespace ReadBookService.Service.Base
 
         public async Task<List<Dto>> GetAll()
         {
-            return await _baseRepo.GetAll();
+            var result = await _baseRepo.GetAll();
+
+            result = await AfterGetAllData(result);
+
+            return result;
+        }
+
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="data"></param>
+        /// <returns></returns>
+        protected virtual async Task<List<Dto>> AfterGetAllData(List<Dto> data)
+        {
+            return data;
         }
 
         /// <summary>
