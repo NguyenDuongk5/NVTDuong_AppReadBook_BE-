@@ -28,6 +28,8 @@
         /// Số bản ghi mỗi trang
         /// </summary>
         public int take { get; set; }
+
+
     }
 
     /// <summary>

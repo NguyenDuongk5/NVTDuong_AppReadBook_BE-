@@ -7,14 +7,6 @@ namespace ReadBookService.IService.Home
 {
     public interface IMangaService : IBaseService<MangaEntity, MangaDto>
     {
-        /// <summary>
-        /// Lấy danh sách manga theo thể loại.
-        /// </summary>
-        //Task<List<MangaDto>> GetByCategory(Guid categoryId);
 
-        /// <summary>
-        /// Lấy danh sách manga nổi bật (featured).
-        /// </summary>
-        //Task<List<MangaDto>> GetFeaturedManga();
     }
 }

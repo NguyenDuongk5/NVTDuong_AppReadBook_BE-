@@ -74,23 +74,25 @@ namespace ReadBookRepo.Base.Repo
         {
             using var conn = new MySqlConnection(_connectionString);
             await conn.OpenAsync();
-            /// Chọn ra các cột muốn lấy (ví dụ "*" hoặc "manga_id, manga_title")
-            /// Lấy dữ liệu từ bảng, tên bảng được lấy bằng attribute [Table("manga")] trong Entity.
-            var offset = (paramPagingBase.page - 1) * paramPagingBase.take;
 
-            var sql = $@"SELECT {paramPagingBase.column} 
-                 
-                         FROM {GetNameTable()} 
-                         LIMIT {offset}, {paramPagingBase.take};";
+            var offset = (paramPagingBase.page - 1) * paramPagingBase.take;
+            var columns = string.IsNullOrWhiteSpace(paramPagingBase.column) ? "*" : paramPagingBase.column;
+            if (columns.ToLower() == "string") columns = "*";
+
+            var sql = $@"SELECT {columns}
+                 FROM {GetNameTable()}
+                 LIMIT {offset}, {paramPagingBase.take};";
 
             var result = await conn.QueryAsync<T>(sql, paramPagingBase.param);
             await conn.CloseAsync();
+
             return new MysqlResultPagingBase<T>
             {
                 data = result.ToList(),
                 total_record = 0
             };
         }
+
 
         /// <summary>
         /// Lấy tên bảng từ [Table] attribute trong Entity

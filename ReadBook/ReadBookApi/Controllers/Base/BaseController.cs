@@ -85,8 +85,11 @@ namespace ReadBookApi.Controllers
         public async Task<IActionResult> GetPaging([FromBody] MysqlParamPagingBase param)
         {
             var result = await _baseService.GetPagingAsync<Dto>(param);
-            return Ok(result);
+            var total = await _baseService.CountAsync();
+            return Ok(new { data = result, total_record = total });
         }
+
+
 
         /// <summary>
         /// 

@@ -280,5 +280,21 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ReadBookApi.Controllers.UploadController",
+    "Method": "UploadImage",
+    "RelativePath": "Upload/upload-image",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "File",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

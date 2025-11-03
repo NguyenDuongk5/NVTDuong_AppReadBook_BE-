@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ReadBookRepo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+141b1bc779afba83a5cc4b15e7e0fb21f01e42ba")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ef6994b586a29294477b7dba90fb38bd1cc66d51")]
 [assembly: System.Reflection.AssemblyProductAttribute("ReadBookRepo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ReadBookRepo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

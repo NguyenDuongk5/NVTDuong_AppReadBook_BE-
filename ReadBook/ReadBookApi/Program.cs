@@ -48,17 +48,44 @@ builder.Services.AddCors(options =>
         });
 });
 
-var app = builder.Build();
-
-// Sử dụng CORS
-app.UseCors("AllowAll");
-if (app.Environment.IsDevelopment())
+try
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
-  
-app.UseAuthorization();
-app.MapControllers();
+    var app = builder.Build();
 
-app.Run();
+    app.UseStaticFiles();
+    app.UseCors("AllowAll");
+
+    if (app.Environment.IsDevelopment())
+    {
+        app.UseSwagger();
+        app.UseSwaggerUI();
+    }
+
+    app.UseAuthorization();
+    app.MapControllers();
+    app.Run();
+}
+catch (Exception ex)
+{
+    Console.WriteLine("🔥 Application startup error: " + ex.Message);
+    throw;
+}
+
+//var app = builder.Build();
+
+//app.UseStaticFiles();
+
+
+//// Sử dụng CORS
+//app.UseCors("AllowAll");
+//if (app.Environment.IsDevelopment())
+//{
+//    app.UseSwagger();
+//    app.UseSwaggerUI();
+//}
+
+//app.UseAuthorization();
+
+//app.MapControllers();
+
+//app.Run();
