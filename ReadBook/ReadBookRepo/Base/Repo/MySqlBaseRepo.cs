@@ -79,9 +79,15 @@ namespace ReadBookRepo.Base.Repo
             var columns = string.IsNullOrWhiteSpace(paramPagingBase.column) ? "*" : paramPagingBase.column;
             if (columns.ToLower() == "string") columns = "*";
 
-            var sql = $@"SELECT {columns}
-                 FROM {GetNameTable()}
-                 LIMIT {offset}, {paramPagingBase.take};";
+            var where = ""; // điều kiện lọc
+            var sql = $@"
+                SELECT {columns}
+                FROM {GetNameTable()}
+                {where}
+                ORDER BY created_date DESC
+                LIMIT {offset}, {paramPagingBase.take};
+            ";
+
 
             var result = await conn.QueryAsync<T>(sql, paramPagingBase.param);
             await conn.CloseAsync();
@@ -266,6 +272,17 @@ namespace ReadBookRepo.Base.Repo
                 return await connection.ExecuteScalarAsync<int>(sql);
             }
         }
+
+        /// <summary>
+        /// Tạo connection MySQL dùng lại trong các class kế thừa.
+        /// </summary>
+        protected MySqlConnection GetConnection()
+        {
+            return new MySqlConnection(_connectionString);
+        }
+
     }
+
 }
+
 

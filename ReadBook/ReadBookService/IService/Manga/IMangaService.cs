@@ -7,6 +7,5 @@ namespace ReadBookService.IService.Home
 {
     public interface IMangaService : IBaseService<MangaEntity, MangaDto>
     {
-
     }
 }

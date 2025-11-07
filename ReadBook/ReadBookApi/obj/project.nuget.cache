@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "klvLjPvSEUo=",
+  "dgSpecHash": "anNIfNkE5Wk=",
   "success": true,
   "projectFilePath": "C:\\Users\\thain\\Desktop\\AppDocTruyen\\NVTDuong_AppReadBook_BE-\\ReadBook\\ReadBookApi\\ReadBookApi.csproj",
   "expectedPackageFiles": [
@@ -29,6 +29,7 @@
     "C:\\Users\\thain\\.nuget\\packages\\microsoft.openapi\\1.6.14\\microsoft.openapi.1.6.14.nupkg.sha512",
     "C:\\Users\\thain\\.nuget\\packages\\mysql.data\\9.3.0\\mysql.data.9.3.0.nupkg.sha512",
     "C:\\Users\\thain\\.nuget\\packages\\mysqlconnector\\2.4.0\\mysqlconnector.2.4.0.nupkg.sha512",
+    "C:\\Users\\thain\\.nuget\\packages\\newtonsoft.json\\13.0.4\\newtonsoft.json.13.0.4.nupkg.sha512",
     "C:\\Users\\thain\\.nuget\\packages\\nullinside.mysql.entityframeworkcore\\9.0.3\\nullinside.mysql.entityframeworkcore.9.0.3.nupkg.sha512",
     "C:\\Users\\thain\\.nuget\\packages\\swashbuckle.aspnetcore\\6.6.2\\swashbuckle.aspnetcore.6.6.2.nupkg.sha512",
     "C:\\Users\\thain\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.6.2\\swashbuckle.aspnetcore.swagger.6.6.2.nupkg.sha512",

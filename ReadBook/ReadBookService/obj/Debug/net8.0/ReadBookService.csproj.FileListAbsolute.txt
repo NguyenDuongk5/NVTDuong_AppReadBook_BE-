@@ -64,3 +64,4 @@ C:\Users\thain\Desktop\AppDocTruyen\NVTDuong_AppReadBook_BE-\ReadBook\ReadBookSe
 C:\Users\thain\Desktop\AppDocTruyen\NVTDuong_AppReadBook_BE-\ReadBook\ReadBookService\obj\Debug\net8.0\ReadBookService.pdb
 C:\Users\thain\Desktop\AppDocTruyen\NVTDuong_AppReadBook_BE-\ReadBook\ReadBookService\obj\Debug\net8.0\ReadBookService.genruntimeconfig.cache
 C:\Users\thain\Desktop\AppDocTruyen\NVTDuong_AppReadBook_BE-\ReadBook\ReadBookService\obj\Debug\net8.0\ref\ReadBookService.dll
+C:\Users\thain\Desktop\AppDocTruyen\NVTDuong_AppReadBook_BE-\ReadBook\ReadBookService\bin\Debug\net8.0\Newtonsoft.Json.dll

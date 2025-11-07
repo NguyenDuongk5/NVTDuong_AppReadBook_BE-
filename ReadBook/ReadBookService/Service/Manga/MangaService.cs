@@ -1,4 +1,5 @@
 ﻿using ReadBookRepo.Base.IRepo;
+using ReadBookRepo.Repo;
 using ReadBookRepo.Entity.Manga;
 using ReadBookRepo.Entity.Manga.Dto;
 using ReadBookService.Base;
@@ -13,12 +14,11 @@ namespace ReadBookService.Service.Home
     /// </summary>
     public class MangaService : BaseService<MangaEntity, MangaDto>, IMangaService
     {
-        private readonly IMySqlBaseRepo<MangaEntity, MangaDto> _repo;
-
-        public MangaService(IMySqlBaseRepo<MangaEntity, MangaDto> baseRepo)
-            : base(baseRepo)
+        private readonly IMangaRepo _repo; 
+        public MangaService(IMangaRepo repo)
+            : base(repo)
         {
-            _repo = baseRepo;
+            _repo = repo;
         }
 
         protected override async Task<List<MangaDto>> AfterGetAllData(List<MangaDto> data)

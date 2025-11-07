@@ -51,5 +51,6 @@ namespace ReadBookRepo.Entity.Manga
         /// Năm phát hành
         /// </summary>
         public DateTime manga_release_year { get; set; }
+
     }
 }

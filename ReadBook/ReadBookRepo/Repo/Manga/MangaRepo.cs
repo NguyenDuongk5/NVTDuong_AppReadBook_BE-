@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using MySql.Data.MySqlClient;
 using ReadBookRepo.Base.Param;
 using ReadBookRepo.Base.Repo;
+using ReadBookRepo.Entity.Category;
 using ReadBookRepo.Entity.Manga;
 using ReadBookRepo.Entity.Manga.Dto;
 using System;
@@ -18,6 +19,8 @@ namespace ReadBookRepo.Repo
     /// </summary>
     public class MysqlMangaRepo : MySqlBaseRepo<MangaEntity, MangaDto>, IMangaRepo
     {
-        
+       
+
+
     }
 }
