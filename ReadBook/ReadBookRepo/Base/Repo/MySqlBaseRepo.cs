@@ -280,6 +280,66 @@ namespace ReadBookRepo.Base.Repo
         {
             return new MySqlConnection(_connectionString);
         }
+        public async Task<List<Dto>> SearchAsync(string keyword)
+        {
+            using var conn = new MySqlConnection(_connectionString);
+            await conn.OpenAsync();
+
+            var tableName = GetNameTable();
+            var key = $"%{keyword.ToLower()}%";
+
+            // Lấy danh sách cột kiểu string trong DTO
+            var stringColumns = typeof(Dto)
+                .GetProperties()
+                .Where(p => p.PropertyType == typeof(string))
+                .Select(p => p.Name)
+                .ToList();
+
+            if (!stringColumns.Any())
+                return new List<Dto>();
+
+            // Tạo WHERE:  LOWER(col1) LIKE @key OR LOWER(col2) LIKE @key
+            var where = string.Join(" OR ", stringColumns
+                .Select(c => $"LOWER({c}) LIKE @key"));
+
+            var sql = $@"
+                        SELECT *
+                        FROM {tableName}
+                        WHERE {where}
+                        ORDER BY created_date DESC;
+                    ";
+
+            var result = await conn.QueryAsync<Dto>(sql, new { key });
+
+            return result.ToList();
+        }
+        public async Task<Dto?> GetByIdAsync(Guid id)
+        {
+            using var conn = new MySqlConnection(_connectionString);
+            await conn.OpenAsync();
+
+            var tableName = GetNameTable();
+
+            // Tìm khóa chính [Key]
+            var keyProp = typeof(Entity)
+                .GetProperties(BindingFlags.Public | BindingFlags.Instance)
+                .FirstOrDefault(p => Attribute.IsDefined(p, typeof(KeyAttribute)));
+
+            if (keyProp == null)
+                throw new Exception("Entity phải có [Key]");
+
+            var sql = $@"
+                        SELECT *
+                        FROM {tableName}
+                        WHERE {keyProp.Name} = @id
+                        LIMIT 1;
+                    ";
+
+            return await conn.QueryFirstOrDefaultAsync<Dto>(sql, new { id });
+        }
+
+
+
 
     }
 

@@ -17,15 +17,11 @@ namespace ReadBookApi.Controllers
     public class MangaController : BaseController<MangaEntity, MangaDto>
     {
         /// Khai báo interface service để gọi các hàm xử lý dữ liệu Manga
-        private readonly IMangaService _service;
+        private readonly IMangaService _mangaService;
 
-        /// <summary>
-        /// Hàm khởi tạo
-        /// </summary>
-        /// <param name="service"></param>
-        public MangaController(IMangaService service) : base(service)
+        public MangaController(IMangaService mangaService) : base(mangaService)
         {
-            _service = service;
+            _mangaService = mangaService;
         }
 
     }

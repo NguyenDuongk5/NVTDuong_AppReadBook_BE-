@@ -145,6 +145,18 @@ namespace ReadBookService.Service.Base
             return await _baseRepo.CountTodayAsync();
         }
 
+        public async Task<List<Dto>> SearchAsync(string keyword)
+        {
+            if (string.IsNullOrWhiteSpace(keyword))
+                return new List<Dto>();
+
+            var result = await _baseRepo.SearchAsync(keyword);
+            return await AfterGetAllData(result);
+        }
+        public async Task<Dto?> GetByIdAsync(Guid id)
+        {
+            return await _baseRepo.GetByIdAsync(id);
+        }
 
 
     }

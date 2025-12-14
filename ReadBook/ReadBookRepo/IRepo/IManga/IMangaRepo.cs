@@ -8,5 +8,6 @@ namespace ReadBookRepo.Repo
 {
     public interface IMangaRepo : IMySqlBaseRepo<MangaEntity, MangaDto>
     {
+
     }
 }

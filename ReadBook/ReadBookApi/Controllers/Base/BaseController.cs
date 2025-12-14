@@ -112,5 +112,24 @@ namespace ReadBookApi.Controllers
             return Ok(count);
         }
 
+        [HttpGet("search")]
+        public async Task<IActionResult> Search([FromQuery] string keyword)
+        {
+            var data = await _baseService.SearchAsync(keyword);
+            return Ok(data);
+        }
+        /// <summary>
+        /// API lấy entity theo Id
+        /// GET: /[Controller]/{id}
+        /// </summary>
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetById(Guid id)
+        {
+            var data = await _baseService.GetByIdAsync(id);
+            if (data == null) return NotFound();
+            return Ok(data);
+        }
+
     }
+
 }

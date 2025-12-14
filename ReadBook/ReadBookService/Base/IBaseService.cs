@@ -47,5 +47,10 @@ namespace ReadBookService.Base
 
         Task<int> CountTodayAsync();
 
+        Task<List<Dto>> SearchAsync(string keyword);
+
+        Task<Dto?> GetByIdAsync(Guid id);
+
+
     }
 }

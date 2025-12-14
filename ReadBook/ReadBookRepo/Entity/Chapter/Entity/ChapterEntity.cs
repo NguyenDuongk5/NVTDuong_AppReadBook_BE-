@@ -15,7 +15,9 @@ namespace ReadBookRepo.Entity.Chapters.Entity
 
         public int chapter_number { get; set; }
 
-        public string chapter_title { get; set; }
+        public string chapter_content { get; set; }
+
+        public string chapter_title { get; set; } = string.Empty;
 
     }
 }

@@ -168,6 +168,50 @@
         }
       }
     },
+    "/Category/search": {
+      "get": {
+        "tags": [
+          "Category"
+        ],
+        "parameters": [
+          {
+            "name": "keyword",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Category/{id}": {
+      "get": {
+        "tags": [
+          "Category"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/Chapter/all": {
       "get": {
         "tags": [
@@ -323,6 +367,50 @@
       "get": {
         "tags": [
           "Chapter"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Chapter/search": {
+      "get": {
+        "tags": [
+          "Chapter"
+        ],
+        "parameters": [
+          {
+            "name": "keyword",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Chapter/{id}": {
+      "get": {
+        "tags": [
+          "Chapter"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
         ],
         "responses": {
           "200": {
@@ -494,6 +582,50 @@
         }
       }
     },
+    "/Manga/search": {
+      "get": {
+        "tags": [
+          "Manga"
+        ],
+        "parameters": [
+          {
+            "name": "keyword",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Manga/{id}": {
+      "get": {
+        "tags": [
+          "Manga"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/Upload/upload-image": {
       "post": {
         "tags": [
@@ -577,6 +709,10 @@
           "chapter_number": {
             "type": "integer",
             "format": "int32"
+          },
+          "chapter_content": {
+            "type": "string",
+            "nullable": true
           },
           "chapter_title": {
             "type": "string",

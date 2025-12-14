@@ -53,6 +53,12 @@ namespace ReadBookRepo.Base.IRepo
         Task<int> CountAsync();
 
         Task<int> CountTodayAsync();
+
+        // Trả về tuple (List<Dto>, int) để có dữ liệu + tổng số
+        Task<List<Dto>> SearchAsync(string keyword);
+
+        Task<Dto?> GetByIdAsync(Guid id);
+
     }
 
 }

@@ -67,7 +67,7 @@ try
 }
 catch (Exception ex)
 {
-    Console.WriteLine("🔥 Application startup error: " + ex.Message);
+    Console.WriteLine("Application startup error: " + ex.Message);
     throw;
 }
 

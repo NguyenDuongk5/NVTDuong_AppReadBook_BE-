@@ -19,7 +19,5 @@ namespace ReadBookService.Service.Chapters
         {
             _chapterRepo = Repo;
         }
-
-
     }
 }
